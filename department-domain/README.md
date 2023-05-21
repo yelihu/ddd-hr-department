@@ -13,12 +13,9 @@ Domain模块是核心业务逻辑的集中地
 依赖关系：仅依赖Types模块
 
 ```xml
-
-<dependencies>
-    <dependency>
-        <groupId>org.dddexample.hr</groupId>
-        <artifactId>department-types</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
-</dependencies>
+<dependency>
+    <groupId>org.dddexample.hr</groupId>
+    <artifactId>department-domain</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
 ```
